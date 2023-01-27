@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.formikContainer{
+    min-height: 83vh;
+    .mainDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10rem;
+    
+        .form{
+            padding: 2rem 3rem;
+            display: flex;
+            flex-direction: column;
+            border: 2px solid #065F0C;
+            justify-content: center;
+            text-align: center;
+           
+            input{
+                font-size: 14px;
+                width: 300px;
+                padding: 7px 10px;
+                border-radius: 0.3rem;
+                border: 0;
+                outline: 1px solid gray;
+            }
+            .btn{
+                margin-top: 1rem;
+                background-color: #065F0C;
+                color: white;
+                border: 0;
+                padding: 0.7rem 2rem;
+                border-radius: 0.3rem;
+                outline: none;
+            }
+        }
+    }
+}
+
